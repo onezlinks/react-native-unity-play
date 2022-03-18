@@ -35,7 +35,7 @@
 
 - (void)pause:(bool)pause;
 
-- (void)sendMessageToGOWithName:(const char*)goName functionName:(const char*)name message:(const char*)msg;
+- (void)sendMessageToGOWithName:(NSString *)goName functionName:(NSString *)name message:(NSString *)msg;
 
 @end
 
